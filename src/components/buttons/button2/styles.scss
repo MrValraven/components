@@ -1,0 +1,19 @@
+.button2 {
+  appearance: none;
+  outline: none;
+  border: none;
+  width: 200px;
+  padding: 15px 10px;
+  border-radius: 6px;
+  background-color: #474d57;
+  color: #fafafa;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    cursor: pointer;
+    background-color: darken(#474d57, 10%);
+  }
+}

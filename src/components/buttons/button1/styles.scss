@@ -1,0 +1,38 @@
+.button1 {
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(202, 202, 202);
+  width: 200px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  i {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background-color: #0f0f0f;
+    color: #fbfaf5;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(0.9), translateY(1.5px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button1 {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
