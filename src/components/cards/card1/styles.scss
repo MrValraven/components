@@ -1,0 +1,25 @@
+.card1 {
+  min-width: 450px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #1e262f;
+  color: white;
+
+  h3 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  h4 {
+    color: #7e8c9a;
+    font-weight: medium;
+  }
+
+  p {
+    margin: 15px 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}

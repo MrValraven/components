@@ -1,0 +1,23 @@
+.button4 {
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  color: #155781;
+  border: 2px solid #155781;
+  background-color: #fff;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    box-shadow: 7px 7px #0e3955, -7px -7px #1c75ad;
+    background-color: #155781;
+    color: white;
+    cursor: pointer;
+  }
+}
